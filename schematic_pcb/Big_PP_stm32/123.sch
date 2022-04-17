@@ -1,0 +1,2177 @@
+EESchema Schematic File Version 4
+LIBS:123-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 123-rescue:R-Device R6
+U 1 1 5CAD137E
+P 5575 1975
+F 0 "R6" H 5650 1950 50  0000 L CNN
+F 1 "10k" H 5625 2025 50  0000 L CNN
+F 2 "123:R_0603_1608Metric" V 5505 1975 50  0001 C CNN
+F 3 "~" H 5575 1975 50  0001 C CNN
+F 4 "0.063Вт 0603 10 кОм, 1%" H 5575 1975 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product0/9000079736" H 5575 1975 50  0001 C CNN "Ссылка"
+F 6 "0,9" H 5575 1975 50  0001 C CNN "Цена"
+	1    5575 1975
+	-1   0    0    1   
+$EndComp
+$Comp
+L 123-rescue:R-Device R11
+U 1 1 5CB08406
+P 7150 3975
+F 0 "R11" V 7250 3925 50  0000 L CNN
+F 1 "360" V 7150 3925 50  0000 L CNN
+F 2 "123:R_0603_1608Metric" V 7080 3975 50  0001 C CNN
+F 3 "~" H 7150 3975 50  0001 C CNN
+F 4 " 0.1Вт 0603 360 Ом, 1%" H 7150 3975 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product0/9000079629" H 7150 3975 50  0001 C CNN "Ссылка"
+F 6 "0,9" H 7150 3975 50  0001 C CNN "Цена"
+	1    7150 3975
+	0    1    1    0   
+$EndComp
+$Comp
+L 123-rescue:GND-power #PWR047
+U 1 1 5CB0BFA1
+P 7750 4225
+F 0 "#PWR047" H 7750 3975 50  0001 C CNN
+F 1 "GND" H 7900 4150 50  0000 C CNN
+F 2 "" H 7750 4225 50  0001 C CNN
+F 3 "" H 7750 4225 50  0001 C CNN
+	1    7750 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 4175 7750 4225
+$Comp
+L 123-rescue:LED-Device D3
+U 1 1 5CB11BFD
+P 5925 5375
+F 0 "D3" H 5925 5275 50  0000 C CNN
+F 1 "LED жёлтый" H 6000 5475 50  0000 C CNN
+F 2 "123:LED_D3.0mm_Horizontal_O6.35mm_Z2.0mm" H 5925 5375 50  0001 C CNN
+F 3 "~" H 5925 5375 50  0001 C CNN
+F 4 "KP-2012EC" H 5925 5375 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/gnl-3012yd" H 5925 5375 50  0001 C CNN "Ссылка"
+F 6 "5" H 5925 5375 50  0001 C CNN "Цена"
+	1    5925 5375
+	-1   0    0    1   
+$EndComp
+$Comp
+L 123-rescue:R-Device R9
+U 1 1 5CB15E0C
+P 5475 5375
+F 0 "R9" V 5375 5325 50  0000 L CNN
+F 1 "360" V 5475 5325 50  0000 L CNN
+F 2 "123:R_0603_1608Metric" V 5405 5375 50  0001 C CNN
+F 3 "~" H 5475 5375 50  0001 C CNN
+F 4 " 0.1Вт 0603 360 Ом, 1%" H 5475 5375 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product0/9000079629" H 5475 5375 50  0001 C CNN "Ссылка"
+F 6 "0,9" H 5475 5375 50  0001 C CNN "Цена"
+	1    5475 5375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5625 5375 5775 5375
+$Comp
+L 123-rescue:GND-power #PWR046
+U 1 1 5CB19678
+P 6125 5425
+F 0 "#PWR046" H 6125 5175 50  0001 C CNN
+F 1 "GND" H 6130 5252 50  0000 C CNN
+F 2 "" H 6125 5425 50  0001 C CNN
+F 3 "" H 6125 5425 50  0001 C CNN
+	1    6125 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:Conn_01x02-Connector_Generic J13
+U 1 1 5CB19939
+P 4325 5225
+F 0 "J13" H 4175 5025 50  0000 L CNN
+F 1 "Fan1" H 4350 5025 50  0000 L CNN
+F 2 "123:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4325 5225 50  0001 C CNN
+F 3 "~" H 4325 5225 50  0001 C CNN
+F 4 "---" H 4325 5225 50  0001 C CNN "Артикул"
+F 5 "---" H 4325 5225 50  0001 C CNN "Ссылка"
+F 6 "---" H 4325 5225 50  0001 C CNN "Цена"
+	1    4325 5225
+	1    0    0    1   
+$EndComp
+$Comp
+L 123-rescue:Conn_01x02-Connector_Generic J14
+U 1 1 5CB19D09
+P 4325 5575
+F 0 "J14" H 4175 5375 50  0000 L CNN
+F 1 "Fan2" H 4350 5375 50  0000 L CNN
+F 2 "123:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 4325 5575 50  0001 C CNN
+F 3 "~" H 4325 5575 50  0001 C CNN
+F 4 "---" H 4325 5575 50  0001 C CNN "Артикул"
+F 5 "---" H 4325 5575 50  0001 C CNN "Ссылка"
+F 6 "---" H 4325 5575 50  0001 C CNN "Цена"
+	1    4325 5575
+	1    0    0    1   
+$EndComp
+$Comp
+L 123-rescue:Conn_01x03-Connector_Generic J1
+U 1 1 5CB1A56C
+P 1650 5250
+F 0 "J1" H 1600 5050 50  0000 L CNN
+F 1 "Conn_01x03" H 1730 5201 50  0001 L CNN
+F 2 "123:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 1650 5250 50  0001 C CNN
+F 3 "~" H 1650 5250 50  0001 C CNN
+F 4 "---" H 1650 5250 50  0001 C CNN "Артикул"
+F 5 "---" H 1650 5250 50  0001 C CNN "Ссылка"
+F 6 "---" H 1650 5250 50  0001 C CNN "Цена"
+	1    1650 5250
+	1    0    0    1   
+$EndComp
+$Comp
+L 123-rescue:Conn_01x03-Connector_Generic J5
+U 1 1 5CB1B21E
+P 2650 5250
+F 0 "J5" H 2600 5050 50  0000 L CNN
+F 1 "Conn_01x03" H 2730 5201 50  0001 L CNN
+F 2 "123:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 2650 5250 50  0001 C CNN
+F 3 "~" H 2650 5250 50  0001 C CNN
+F 4 "---" H 2650 5250 50  0001 C CNN "Артикул"
+F 5 "---" H 2650 5250 50  0001 C CNN "Ссылка"
+F 6 "---" H 2650 5250 50  0001 C CNN "Цена"
+	1    2650 5250
+	1    0    0    1   
+$EndComp
+$Comp
+L 123-rescue:Conn_01x03-Connector_Generic J9
+U 1 1 5CB2156B
+P 3500 5250
+F 0 "J9" H 3450 5500 50  0000 L CNN
+F 1 "Conn_01x03" H 3580 5201 50  0001 L CNN
+F 2 "123:PinHeader_1x03_P2.54mm_Vertical" H 3500 5250 50  0001 C CNN
+F 3 "~" H 3500 5250 50  0001 C CNN
+F 4 "---" H 3500 5250 50  0001 C CNN "Артикул"
+F 5 "---" H 3500 5250 50  0001 C CNN "Ссылка"
+F 6 "---" H 3500 5250 50  0001 C CNN "Цена"
+	1    3500 5250
+	1    0    0    -1  
+$EndComp
+Text Label 7800 3725 0    50   ~ 0
+Out
+Wire Wire Line
+	7750 3725 7750 3775
+$Comp
+L 123-rescue:+12V-power #PWR023
+U 1 1 5CB63D7E
+P 3775 3725
+F 0 "#PWR023" H 3775 3575 50  0001 C CNN
+F 1 "+12V" H 3790 3898 50  0000 C CNN
+F 2 "" H 3775 3725 50  0001 C CNN
+F 3 "" H 3775 3725 50  0001 C CNN
+	1    3775 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:+12VA-power #PWR04
+U 1 1 5CB8779E
+P 1400 4300
+F 0 "#PWR04" H 1400 4150 50  0001 C CNN
+F 1 "+12VA" H 1415 4473 50  0000 C CNN
+F 2 "" H 1400 4300 50  0001 C CNN
+F 3 "" H 1400 4300 50  0001 C CNN
+	1    1400 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 5350 2400 5350
+Wire Wire Line
+	1450 5350 1400 5350
+$Comp
+L 123-rescue:+5VA-power #PWR06
+U 1 1 5CC3CF2D
+P 1400 5050
+F 0 "#PWR06" H 1400 4900 50  0001 C CNN
+F 1 "+5VA" H 1415 5223 50  0000 C CNN
+F 2 "" H 1400 5050 50  0001 C CNN
+F 3 "" H 1400 5050 50  0001 C CNN
+	1    1400 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 5150 2400 5150
+Wire Wire Line
+	1450 5150 1400 5150
+Text Label 1400 5250 2    50   ~ 0
+endstop1
+Wire Wire Line
+	1450 5250 1400 5250
+Text Label 2400 5250 2    50   ~ 0
+endstop2
+Wire Wire Line
+	2450 5250 2400 5250
+Wire Wire Line
+	1650 3950 1700 3950
+Wire Wire Line
+	1650 3850 1700 3850
+Wire Wire Line
+	2200 4150 2350 4150
+Wire Wire Line
+	2200 4050 2350 4050
+Wire Wire Line
+	2200 3950 2350 3950
+Wire Wire Line
+	1700 4250 1650 4250
+Text Label 1650 4150 2    50   ~ 0
+Rx
+Text Label 1650 4250 2    50   ~ 0
+Tx
+Text Label 1650 4050 2    50   ~ 0
+Out
+$Comp
+L 123-rescue:GND-power #PWR017
+U 1 1 5CCBD606
+P 3050 5400
+F 0 "#PWR017" H 3050 5150 50  0001 C CNN
+F 1 "GND" H 3055 5227 50  0000 C CNN
+F 2 "" H 3050 5400 50  0001 C CNN
+F 3 "" H 3050 5400 50  0001 C CNN
+	1    3050 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 5100 3050 5250
+Wire Wire Line
+	3050 5250 3300 5250
+Wire Wire Line
+	3050 5400 3050 5350
+Wire Wire Line
+	3050 5350 3300 5350
+Text Label 1650 3750 2    50   ~ 0
+servo
+Text Label 3250 5150 2    50   ~ 0
+servo
+Wire Wire Line
+	3250 5150 3300 5150
+Wire Wire Line
+	1650 3750 1700 3750
+Text Notes 4425 5600 0    50   ~ 0
++12
+Text Label 2250 4450 0    50   ~ 0
+temp1
+$Comp
+L 123-rescue:GND-power #PWR05
+U 1 1 5CD59738
+P 1400 4500
+F 0 "#PWR05" H 1400 4250 50  0001 C CNN
+F 1 "GND" H 1405 4327 50  0000 C CNN
+F 2 "" H 1400 4500 50  0001 C CNN
+F 3 "" H 1400 4500 50  0001 C CNN
+	1    1400 4500
+	1    0    0    -1  
+$EndComp
+Text Label 2250 4350 0    50   ~ 0
+temp2
+$Comp
+L 123-rescue:Conn_02x02_Odd_Even-Connector_Generic J10
+U 1 1 5CD859FD
+P 4325 3875
+F 0 "J10" H 4375 4092 50  0000 C CNN
+F 1 "12В силовые" H 4375 4001 50  0000 C CNN
+F 2 "123:PhoenixContact_MCV_1,5_4-G-3.81_1x04_P3.81mm_Vertical" H 4325 3875 50  0001 C CNN
+F 3 "~" H 4325 3875 50  0001 C CNN
+F 4 "---" H 4325 3875 50  0001 C CNN "Артикул"
+F 5 "---" H 4325 3875 50  0001 C CNN "Ссылка"
+F 6 "---" H 4325 3875 50  0001 C CNN "Цена"
+	1    4325 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3975 5125 4125 5125
+Wire Wire Line
+	3975 5125 3975 5475
+Wire Wire Line
+	3975 5475 4125 5475
+Wire Wire Line
+	3775 5225 4125 5225
+Connection ~ 3775 5225
+Wire Wire Line
+	3775 5225 3775 5575
+Wire Wire Line
+	3775 5575 4125 5575
+$Comp
+L 123-rescue:GND-power #PWR018
+U 1 1 5CE70F0C
+P 2400 2725
+F 0 "#PWR018" H 2400 2475 50  0001 C CNN
+F 1 "GND" H 2250 2650 50  0000 C CNN
+F 2 "" H 2400 2725 50  0001 C CNN
+F 3 "" H 2400 2725 50  0001 C CNN
+	1    2400 2725
+	1    0    0    -1  
+$EndComp
+Text Label 2375 2600 2    50   ~ 0
+temp1
+Text Label 2375 3025 2    50   ~ 0
+temp2
+Wire Wire Line
+	2250 4350 2200 4350
+Wire Wire Line
+	2250 4450 2200 4450
+Wire Wire Line
+	3975 4925 3975 5125
+Connection ~ 3975 5125
+Wire Wire Line
+	3775 4675 3775 5225
+Connection ~ 3775 4675
+Wire Wire Line
+	4125 4675 3775 4675
+$Comp
+L 123-rescue:Conn_01x02-Connector_Generic J12
+U 1 1 5CD77E70
+P 4325 4775
+F 0 "J12" H 4100 4875 50  0000 L CNN
+F 1 "Heater 1" H 4275 4875 50  0000 L CNN
+F 2 "123:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical" H 4325 4775 50  0001 C CNN
+F 3 "~" H 4325 4775 50  0001 C CNN
+F 4 "---" H 4325 4775 50  0001 C CNN "Артикул"
+F 5 "---" H 4325 4775 50  0001 C CNN "Ссылка"
+F 6 "---" H 4325 4775 50  0001 C CNN "Цена"
+	1    4325 4775
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1700 4150 1650 4150
+$Comp
+L 123-rescue:Conn_01x02-Connector_Generic J11
+U 1 1 5CD771A4
+P 4325 4525
+F 0 "J11" H 4100 4325 50  0000 L CNN
+F 1 "Heater 2" H 4275 4325 50  0000 L CNN
+F 2 "123:PhoenixContact_MCV_1,5_2-G-3.81_1x02_P3.81mm_Vertical" H 4325 4525 50  0001 C CNN
+F 3 "~" H 4325 4525 50  0001 C CNN
+F 4 "---" H 4325 4525 50  0001 C CNN "Артикул"
+F 5 "---" H 4325 4525 50  0001 C CNN "Ссылка"
+F 6 "---" H 4325 4525 50  0001 C CNN "Цена"
+	1    4325 4525
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4125 4425 3925 4425
+Wire Wire Line
+	3925 4425 3925 3875
+Wire Wire Line
+	3925 3875 4125 3875
+Wire Wire Line
+	4025 4775 4125 4775
+Wire Wire Line
+	4125 4525 3775 4525
+Connection ~ 3775 4525
+Wire Wire Line
+	3775 4525 3775 4675
+$Comp
+L 123-rescue:+5VA-power #PWR016
+U 1 1 5D1E8397
+P 3050 5100
+F 0 "#PWR016" H 3050 4950 50  0001 C CNN
+F 1 "+5VA" H 3065 5273 50  0000 C CNN
+F 2 "" H 3050 5100 50  0001 C CNN
+F 3 "" H 3050 5100 50  0001 C CNN
+	1    3050 5100
+	1    0    0    -1  
+$EndComp
+Text Label 1650 3950 2    50   ~ 0
+endstop2
+$Comp
+L 123-rescue:Conn_02x08_Odd_Even-Connector_Generic J3
+U 1 1 5CD209AE
+P 1900 4050
+F 0 "J3" H 1950 4567 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 1950 4476 50  0000 C CNN
+F 2 "123:IDC-Header_2x08_P2.54mm_Vertical" H 1900 4050 50  0001 C CNN
+F 3 "~" H 1900 4050 50  0001 C CNN
+F 4 "---" H 1900 4050 50  0001 C CNN "Артикул"
+F 5 "---" H 1900 4050 50  0001 C CNN "Ссылка"
+F 6 "---" H 1900 4050 50  0001 C CNN "Цена"
+	1    1900 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4050 1650 4050
+Wire Wire Line
+	1400 4350 1400 4300
+Wire Wire Line
+	1400 4350 1700 4350
+Wire Wire Line
+	1700 4450 1400 4450
+Wire Wire Line
+	1400 4450 1400 4500
+Wire Wire Line
+	2200 4250 2350 4250
+Text Notes 2800 3950 2    50   ~ 0
+sA+
+Text Notes 2800 4050 2    50   ~ 0
+sA-
+Text Notes 2800 4150 2    50   ~ 0
+sB+
+Text Notes 2800 4250 2    50   ~ 0
+sB-
+$Comp
+L 123-rescue:Conn_01x04-Connector_Generic J4
+U 1 1 5CB2B231
+P 2550 4150
+F 0 "J4" H 2500 4350 50  0000 L CNN
+F 1 "Conn_01x04" H 2650 4050 50  0001 L CNN
+F 2 "123:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 2550 4150 50  0001 C CNN
+F 3 "~" H 2550 4150 50  0001 C CNN
+F 4 "---" H 2550 4150 50  0001 C CNN "Артикул"
+F 5 "---" H 2550 4150 50  0001 C CNN "Ссылка"
+F 6 "---" H 2550 4150 50  0001 C CNN "Цена"
+	1    2550 4150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3000 3850 2200 3850
+Wire Wire Line
+	2950 3750 3000 3750
+Wire Wire Line
+	2950 4050 2950 3750
+$Comp
+L 123-rescue:GND-power #PWR015
+U 1 1 5CBB3729
+P 2950 4050
+F 0 "#PWR015" H 2950 3800 50  0001 C CNN
+F 1 "GND" H 3100 3975 50  0000 C CNN
+F 2 "" H 2950 4050 50  0001 C CNN
+F 3 "" H 2950 4050 50  0001 C CNN
+	1    2950 4050
+	1    0    0    -1  
+$EndComp
+Text Notes 3400 3775 2    50   ~ 0
+t3
+Text Notes 3450 3875 2    50   ~ 0
+Gnd
+$Comp
+L 123-rescue:Conn_01x02-Connector_Generic J6
+U 1 1 5CB18FEA
+P 3200 3850
+F 0 "J6" H 3150 3650 50  0000 L CNN
+F 1 "Conn_01x02" H 3280 3751 50  0001 L CNN
+F 2 "123:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3200 3850 50  0001 C CNN
+F 3 "~" H 3200 3850 50  0001 C CNN
+F 4 "---" H 3200 3850 50  0001 C CNN "Артикул"
+F 5 "---" H 3200 3850 50  0001 C CNN "Ссылка"
+F 6 "---" H 3200 3850 50  0001 C CNN "Цена"
+	1    3200 3850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3775 3725 3775 3975
+Wire Wire Line
+	3775 3975 4125 3975
+Connection ~ 3775 3975
+Wire Wire Line
+	3775 3975 3775 4525
+Wire Wire Line
+	4025 4175 4025 4775
+$Comp
+L 123-rescue:INA326-Amplifier_Instrumentation U5
+U 1 1 5D2E314C
+P 10425 5875
+F 0 "U5" H 10625 6125 50  0000 L CNN
+F 1 "INA333" H 10625 6025 50  0000 L CNN
+F 2 "123:MSOP-8_3x3mm_P0.65mm" H 10425 5875 50  0001 L CNN
+F 3 "" H 10525 5875 50  0001 C CNN
+F 4 "INA333AIDGKT" H 10425 5875 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/ina333aidgkt" H 10425 5875 50  0001 C CNN "Ссылка"
+F 6 "180" H 10425 5875 50  0001 C CNN "Цена"
+	1    10425 5875
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:GND-power #PWR062
+U 1 1 5D2E3EED
+P 10425 6275
+F 0 "#PWR062" H 10425 6025 50  0001 C CNN
+F 1 "GND" H 10430 6102 50  0000 C CNN
+F 2 "" H 10425 6275 50  0001 C CNN
+F 3 "" H 10425 6275 50  0001 C CNN
+	1    10425 6275
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:R-Device R13
+U 1 1 5D2E4FF1
+P 9875 5875
+F 0 "R13" V 9775 5825 50  0000 L CNN
+F 1 "82" V 9875 5825 50  0000 L CNN
+F 2 "123:R_0603_1608Metric" V 9805 5875 50  0001 C CNN
+F 3 "~" H 9875 5875 50  0001 C CNN
+F 4 " 0.1Вт 0603 82 Ом, 1%" H 9875 5875 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product0/9000079614" H 9875 5875 50  0001 C CNN "Ссылка"
+F 6 "0,9" H 9875 5875 50  0001 C CNN "Цена"
+	1    9875 5875
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10125 5775 10025 5775
+Wire Wire Line
+	10025 5775 10025 5725
+Wire Wire Line
+	10025 5725 9875 5725
+Wire Wire Line
+	10025 5975 10125 5975
+Wire Wire Line
+	10025 5975 10025 6025
+Wire Wire Line
+	10025 6025 9875 6025
+Wire Wire Line
+	10425 5525 10425 5575
+$Comp
+L 123-rescue:C-Device C15
+U 1 1 5D3029DA
+P 10875 6075
+F 0 "C15" H 10925 6175 50  0000 L CNN
+F 1 "1uF" H 10925 5975 50  0000 L CNN
+F 2 "123:C_0603_1608Metric" H 10913 5925 50  0001 C CNN
+F 3 "~" H 10875 6075 50  0001 C CNN
+F 4 "GRM188R61E105KAADD" H 10875 6075 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/grm188r61e105k" H 10875 6075 50  0001 C CNN "Ссылка"
+F 6 "5" H 10875 6075 50  0001 C CNN "Цена"
+	1    10875 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10875 5925 10875 5875
+Wire Wire Line
+	10875 5875 10825 5875
+$Comp
+L 123-rescue:GND-power #PWR063
+U 1 1 5D3030C7
+P 10875 6275
+F 0 "#PWR063" H 10875 6025 50  0001 C CNN
+F 1 "GND" H 10880 6102 50  0000 C CNN
+F 2 "" H 10875 6275 50  0001 C CNN
+F 3 "" H 10875 6275 50  0001 C CNN
+	1    10875 6275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10875 6275 10875 6225
+Text Label 10925 5875 0    50   ~ 0
+Tez_res
+Wire Wire Line
+	10925 5875 10875 5875
+Connection ~ 10875 5875
+$Comp
+L 123-rescue:R-Device R7
+U 1 1 5D31C6AF
+P 5600 6625
+F 0 "R7" H 5450 6425 50  0000 C CNN
+F 1 "360" H 5450 6500 50  0000 C CNN
+F 2 "123:R_0603_1608Metric" V 5530 6625 50  0001 C CNN
+F 3 "~" H 5600 6625 50  0001 C CNN
+F 4 " 0.1Вт 0603 360 Ом, 1%" H 2050 4625 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product0/9000079629" H 2050 4625 50  0001 C CNN "Ссылка"
+F 6 "0,9" H 2050 4625 50  0001 C CNN "Цена"
+	1    5600 6625
+	-1   0    0    1   
+$EndComp
+$Comp
+L 123-rescue:GND-power #PWR036
+U 1 1 5D31C6B1
+P 5600 7275
+F 0 "#PWR036" H 5600 7025 50  0001 C CNN
+F 1 "GND" H 5600 7100 50  0000 C CNN
+F 2 "" H 5600 7275 50  0001 C CNN
+F 3 "" H 5600 7275 50  0001 C CNN
+	1    5600 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:+12VA-power #PWR01
+U 1 1 5D31C6C5
+P 1050 6175
+F 0 "#PWR01" H 1050 6025 50  0001 C CNN
+F 1 "+12VA" H 1200 6275 50  0000 C CNN
+F 2 "" H 1050 6175 50  0001 C CNN
+F 3 "" H 1050 6175 50  0001 C CNN
+	1    1050 6175
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:GND-power #PWR057
+U 1 1 5D30286F
+P 9300 6275
+F 0 "#PWR057" H 9300 6025 50  0001 C CNN
+F 1 "GND" H 9305 6102 50  0000 C CNN
+F 2 "" H 9300 6275 50  0001 C CNN
+F 3 "" H 9300 6275 50  0001 C CNN
+	1    9300 6275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 6275 9300 6025
+Wire Wire Line
+	5600 6475 5600 6425
+$Comp
+L 123-rescue:+5VA-power #PWR027
+U 1 1 5D2FA3DB
+P 4250 6175
+F 0 "#PWR027" H 4250 6025 50  0001 C CNN
+F 1 "+5VA" H 4265 6348 50  0000 C CNN
+F 2 "" H 4250 6175 50  0001 C CNN
+F 3 "" H 4250 6175 50  0001 C CNN
+	1    4250 6175
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:+3.3V-power #PWR058
+U 1 1 5D2FAA74
+P 9500 4825
+F 0 "#PWR058" H 9500 4675 50  0001 C CNN
+F 1 "+3.3V" H 9515 4998 50  0000 C CNN
+F 2 "" H 9500 4825 50  0001 C CNN
+F 3 "" H 9500 4825 50  0001 C CNN
+	1    9500 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:+3.3V-power #PWR061
+U 1 1 5D2FB997
+P 10425 5525
+F 0 "#PWR061" H 10425 5375 50  0001 C CNN
+F 1 "+3.3V" H 10440 5698 50  0000 C CNN
+F 2 "" H 10425 5525 50  0001 C CNN
+F 3 "" H 10425 5525 50  0001 C CNN
+	1    10425 5525
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:C-Device C9
+U 1 1 5D2FC2BA
+P 4475 6625
+F 0 "C9" H 4525 6725 50  0000 L CNN
+F 1 "1uF" H 4525 6525 50  0000 L CNN
+F 2 "123:C_0603_1608Metric" H 4513 6475 50  0001 C CNN
+F 3 "~" H 4475 6625 50  0001 C CNN
+F 4 "GRM188R61E105KAADD" H 4475 6625 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/grm188r61e105k" H 4475 6625 50  0001 C CNN "Ссылка"
+F 6 "5" H 4475 6625 50  0001 C CNN "Цена"
+	1    4475 6625
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:C-Device C11
+U 1 1 5D2FC8DF
+P 5350 6825
+F 0 "C11" H 5175 6925 50  0000 L CNN
+F 1 "1uF" H 5200 6725 50  0000 L CNN
+F 2 "123:C_0603_1608Metric" H 5388 6675 50  0001 C CNN
+F 3 "~" H 5350 6825 50  0001 C CNN
+F 4 "GRM188R61E105KAADD" H 5350 6825 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/grm188r61e105k" H 5350 6825 50  0001 C CNN "Ссылка"
+F 6 "5" H 5350 6825 50  0001 C CNN "Цена"
+	1    5350 6825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 6425 4475 6475
+Wire Wire Line
+	5350 6425 5350 6675
+$Comp
+L 123-rescue:GND-power #PWR029
+U 1 1 5D2FF1FC
+P 4475 7275
+F 0 "#PWR029" H 4475 7025 50  0001 C CNN
+F 1 "GND" H 4480 7102 50  0000 C CNN
+F 2 "" H 4475 7275 50  0001 C CNN
+F 3 "" H 4475 7275 50  0001 C CNN
+	1    4475 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:GND-power #PWR031
+U 1 1 5D2FF44F
+P 4950 7275
+F 0 "#PWR031" H 4950 7025 50  0001 C CNN
+F 1 "GND" H 4955 7102 50  0000 C CNN
+F 2 "" H 4950 7275 50  0001 C CNN
+F 3 "" H 4950 7275 50  0001 C CNN
+	1    4950 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:GND-power #PWR034
+U 1 1 5D2FF5D1
+P 5350 7275
+F 0 "#PWR034" H 5350 7025 50  0001 C CNN
+F 1 "GND" H 5355 7102 50  0000 C CNN
+F 2 "" H 5350 7275 50  0001 C CNN
+F 3 "" H 5350 7275 50  0001 C CNN
+	1    5350 7275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 7275 4475 6775
+Wire Wire Line
+	5350 6975 5350 7275
+$Comp
+L 123-rescue:+3.3V-power #PWR035
+U 1 1 5D2FF800
+P 5600 6175
+F 0 "#PWR035" H 5600 6025 50  0001 C CNN
+F 1 "+3.3V" H 5615 6348 50  0000 C CNN
+F 2 "" H 5600 6175 50  0001 C CNN
+F 3 "" H 5600 6175 50  0001 C CNN
+	1    5600 6175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 6425 4250 6425
+Connection ~ 4475 6425
+$Comp
+L 123-rescue:+3.3V-power #PWR030
+U 1 1 5D308C2B
+P 5575 1775
+F 0 "#PWR030" H 5575 1625 50  0001 C CNN
+F 1 "+3.3V" H 5590 1948 50  0000 C CNN
+F 2 "" H 5575 1775 50  0001 C CNN
+F 3 "" H 5575 1775 50  0001 C CNN
+	1    5575 1775
+	1    0    0    -1  
+$EndComp
+Text Notes 8900 5750 0    50   ~ 0
+R2
+Text Notes 8900 5850 0    50   ~ 0
+in+
+Text Notes 8900 5950 0    50   ~ 0
+in-
+Text Notes 8925 6050 0    50   ~ 0
+-
+Text Label 7000 3575 0    50   ~ 0
+Tez_res
+$Comp
+L 123-rescue:R_POT-Device RV1
+U 1 1 5D30B7C1
+P 3475 2825
+F 0 "RV1" H 3405 2871 50  0000 R CNN
+F 1 "10k" H 3405 2780 50  0000 R CNN
+F 2 "123:Potentiometer_Bourns_3296W_Vertical" H 3475 2825 50  0001 C CNN
+F 3 "" H 3475 2825 50  0001 C CNN
+F 4 "3296W-1-103LF" H 3475 2825 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/3296w-1-103" H 3475 2825 50  0001 C CNN "Ссылка"
+F 6 "70" H 3475 2825 50  0001 C CNN "Цена"
+	1    3475 2825
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:+3.3V-power #PWR025
+U 1 1 5D3113D7
+P 3475 2475
+F 0 "#PWR025" H 3475 2325 50  0001 C CNN
+F 1 "+3.3V" H 3490 2648 50  0000 C CNN
+F 2 "" H 3475 2475 50  0001 C CNN
+F 3 "" H 3475 2475 50  0001 C CNN
+	1    3475 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:GND-power #PWR026
+U 1 1 5D31154C
+P 3475 3250
+F 0 "#PWR026" H 3475 3000 50  0001 C CNN
+F 1 "GND" H 3480 3077 50  0000 C CNN
+F 2 "" H 3475 3250 50  0001 C CNN
+F 3 "" H 3475 3250 50  0001 C CNN
+	1    3475 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 3250 3475 2975
+Text Label 7000 3475 0    50   ~ 0
+Porog
+Wire Wire Line
+	6125 5425 6125 5375
+Wire Wire Line
+	6125 5375 6075 5375
+Wire Wire Line
+	7800 3725 7750 3725
+Wire Wire Line
+	7300 3975 7450 3975
+Text Label 1650 3850 2    50   ~ 0
+endstop1
+$Comp
+L 123-rescue:C-Device C8
+U 1 1 5D3111DA
+P 4250 6625
+F 0 "C8" H 4300 6725 50  0000 L CNN
+F 1 "1uF" H 4300 6525 50  0000 L CNN
+F 2 "123:C_0603_1608Metric" H 4288 6475 50  0001 C CNN
+F 3 "~" H 4250 6625 50  0001 C CNN
+F 4 "GRM188R61E105KAADD" H 4250 6625 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/grm188r61e105k" H 4250 6625 50  0001 C CNN "Ссылка"
+F 6 "5" H 4250 6625 50  0001 C CNN "Цена"
+	1    4250 6625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 6475 4250 6425
+$Comp
+L 123-rescue:GND-power #PWR028
+U 1 1 5D311821
+P 4250 7275
+F 0 "#PWR028" H 4250 7025 50  0001 C CNN
+F 1 "GND" H 4255 7102 50  0000 C CNN
+F 2 "" H 4250 7275 50  0001 C CNN
+F 3 "" H 4250 7275 50  0001 C CNN
+	1    4250 7275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 6775 4250 7275
+$Comp
+L 123-rescue:C-Device C10
+U 1 1 5D33A0B6
+P 5200 4600
+F 0 "C10" H 5250 4700 50  0000 L CNN
+F 1 "1uF" H 5250 4500 50  0000 L CNN
+F 2 "123:C_0603_1608Metric" H 5238 4450 50  0001 C CNN
+F 3 "~" H 5200 4600 50  0001 C CNN
+F 4 "GRM188R61E105KAADD" H 5200 4600 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/grm188r61e105k" H 5200 4600 50  0001 C CNN "Ссылка"
+F 6 "5" H 5200 4600 50  0001 C CNN "Цена"
+	1    5200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:+3.3V-power #PWR032
+U 1 1 5D33A0B7
+P 5200 4275
+F 0 "#PWR032" H 5200 4125 50  0001 C CNN
+F 1 "+3.3V" H 5215 4448 50  0000 C CNN
+F 2 "" H 5200 4275 50  0001 C CNN
+F 3 "" H 5200 4275 50  0001 C CNN
+	1    5200 4275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4275 5200 4450
+Wire Wire Line
+	5200 4750 5200 4800
+$Comp
+L 123-rescue:GND-power #PWR033
+U 1 1 5D33C16D
+P 5200 4800
+F 0 "#PWR033" H 5200 4550 50  0001 C CNN
+F 1 "GND" H 5205 4627 50  0000 C CNN
+F 2 "" H 5200 4800 50  0001 C CNN
+F 3 "" H 5200 4800 50  0001 C CNN
+	1    5200 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 2825 3150 2825
+Text Label 3100 2825 2    50   ~ 0
+Porog
+$Comp
+L 123-rescue:C-Device C12
+U 1 1 5D357D12
+P 6900 5925
+F 0 "C12" H 6950 6025 50  0000 L CNN
+F 1 "1uF" H 6950 5825 50  0000 L CNN
+F 2 "123:C_0603_1608Metric" H 6938 5775 50  0001 C CNN
+F 3 "~" H 6900 5925 50  0001 C CNN
+F 4 "GRM188R61E105KAADD" H 6900 5925 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/grm188r61e105k" H 6900 5925 50  0001 C CNN "Ссылка"
+F 6 "5" H 6900 5925 50  0001 C CNN "Цена"
+	1    6900 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:+3.3V-power #PWR044
+U 1 1 5D357D13
+P 6900 5600
+F 0 "#PWR044" H 6900 5450 50  0001 C CNN
+F 1 "+3.3V" H 6915 5773 50  0000 C CNN
+F 2 "" H 6900 5600 50  0001 C CNN
+F 3 "" H 6900 5600 50  0001 C CNN
+	1    6900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:GND-power #PWR045
+U 1 1 5D357D14
+P 6900 6125
+F 0 "#PWR045" H 6900 5875 50  0001 C CNN
+F 1 "GND" H 6905 5952 50  0000 C CNN
+F 2 "" H 6900 6125 50  0001 C CNN
+F 3 "" H 6900 6125 50  0001 C CNN
+	1    6900 6125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 5600 6900 5775
+Wire Wire Line
+	6900 6075 6900 6125
+$Comp
+L 123-rescue:C-Device C7
+U 1 1 5D35971B
+P 3150 3050
+F 0 "C7" H 3200 3150 50  0000 L CNN
+F 1 "1uF" H 3200 2950 50  0000 L CNN
+F 2 "123:C_0603_1608Metric" H 3188 2900 50  0001 C CNN
+F 3 "~" H 3150 3050 50  0001 C CNN
+F 4 "GRM188R61E105KAADD" H 3150 3050 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/grm188r61e105k" H 3150 3050 50  0001 C CNN "Ссылка"
+F 6 "5" H 3150 3050 50  0001 C CNN "Цена"
+	1    3150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:GND-power #PWR022
+U 1 1 5D35971D
+P 3150 3250
+F 0 "#PWR022" H 3150 3000 50  0001 C CNN
+F 1 "GND" H 3155 3077 50  0000 C CNN
+F 2 "" H 3150 3250 50  0001 C CNN
+F 3 "" H 3150 3250 50  0001 C CNN
+	1    3150 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3200 3150 3250
+Wire Wire Line
+	3150 2900 3150 2825
+Connection ~ 3150 2825
+Wire Wire Line
+	3150 2825 3100 2825
+$Comp
+L 123-rescue:+5VA-power #PWR013
+U 1 1 5D40056F
+P 2400 5075
+F 0 "#PWR013" H 2400 4925 50  0001 C CNN
+F 1 "+5VA" H 2415 5248 50  0000 C CNN
+F 2 "" H 2400 5075 50  0001 C CNN
+F 3 "" H 2400 5075 50  0001 C CNN
+	1    2400 5075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 5075 2400 5150
+Wire Wire Line
+	5600 6425 5350 6425
+Wire Wire Line
+	5600 6425 5600 6175
+Connection ~ 5600 6425
+$Comp
+L 123-rescue:GND-power #PWR048
+U 1 1 5D4F6A0A
+P 8975 4700
+F 0 "#PWR048" H 8975 4450 50  0001 C CNN
+F 1 "GND-power" H 8975 4550 50  0000 C CNN
+F 2 "" H 8975 4700 50  0001 C CNN
+F 3 "" H 8975 4700 50  0001 C CNN
+	1    8975 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:+5VA-power #PWR053
+U 1 1 5D511E2F
+P 8625 3375
+F 0 "#PWR053" H 8625 3225 50  0001 C CNN
+F 1 "+5VA" H 8600 3550 50  0000 C CNN
+F 2 "" H 8625 3375 50  0001 C CNN
+F 3 "" H 8625 3375 50  0001 C CNN
+	1    8625 3375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:DIODE-Simulation_SPICE D6
+U 1 1 5D551698
+P 8625 3700
+F 0 "D6" V 8675 3975 50  0000 R CNN
+F 1 "BAS321" V 8600 4050 50  0000 R CNN
+F 2 "123:D_SOD-323_HandSoldering" H 8625 3700 50  0001 C CNN
+F 3 "~" H 8625 3700 50  0001 C CNN
+F 4 "Y" H 8625 3700 50  0001 L CNN "Spice_Netlist_Enabled"
+F 5 "V" H 8625 3700 50  0001 L CNN "Spice_Primitive"
+F 6 "BAS321.115" H 8625 3700 50  0001 C CNN "Артикул"
+F 7 "https://www.chipdip.ru/product/bas321.115" H 8625 3700 50  0001 C CNN "Ссылка"
+F 8 "8" H 8625 3700 50  0001 C CNN "Цена"
+	1    8625 3700
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	8625 3550 8625 3375
+Wire Wire Line
+	8625 3850 8625 3975
+$Comp
+L Regulator_Linear:AP1117-33 U2
+U 1 1 5D9E133F
+P 4950 6425
+F 0 "U2" H 4950 6667 50  0000 C CNN
+F 1 "AP1117-33" H 4950 6576 50  0000 C CNN
+F 2 "123:SOT-223-3_TabPin2" H 4950 6625 50  0001 C CNN
+F 3 "" H 5050 6175 50  0001 C CNN
+F 4 "16" H 4950 6425 50  0001 C CNN "Цена"
+F 5 "AMS1117-3.3" H 4950 6425 50  0001 C CNN "Артикул"
+F 6 "https://www.chipdip.ru/product/ams1117-3.3" H 4950 6425 50  0001 C CNN "Ссылка"
+	1    4950 6425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 6425 4650 6425
+Wire Wire Line
+	4950 6725 4950 7275
+$Comp
+L 123-rescue:Conn_01x02-Connector_Generic J7
+U 1 1 5DAA3D2F
+P 2625 2700
+F 0 "J7" H 2575 2500 50  0000 L CNN
+F 1 "Conn_01x02" H 2705 2601 50  0001 L CNN
+F 2 "123:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 2625 2700 50  0001 C CNN
+F 3 "~" H 2625 2700 50  0001 C CNN
+F 4 "---" H 2625 2700 50  0001 C CNN "Артикул"
+F 5 "---" H 2625 2700 50  0001 C CNN "Ссылка"
+F 6 "---" H 2625 2700 50  0001 C CNN "Цена"
+	1    2625 2700
+	1    0    0    1   
+$EndComp
+$Comp
+L 123-rescue:Conn_01x02-Connector_Generic J8
+U 1 1 5DAB723B
+P 2625 3125
+F 0 "J8" H 2575 2925 50  0000 L CNN
+F 1 "Conn_01x02" H 2705 3026 50  0001 L CNN
+F 2 "123:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 2625 3125 50  0001 C CNN
+F 3 "~" H 2625 3125 50  0001 C CNN
+F 4 "---" H 2625 3125 50  0001 C CNN "Артикул"
+F 5 "---" H 2625 3125 50  0001 C CNN "Ссылка"
+F 6 "---" H 2625 3125 50  0001 C CNN "Цена"
+	1    2625 3125
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2425 3025 2375 3025
+Wire Wire Line
+	2425 2600 2375 2600
+$Comp
+L 123-rescue:GND-power #PWR019
+U 1 1 5DADD54B
+P 2400 3150
+F 0 "#PWR019" H 2400 2900 50  0001 C CNN
+F 1 "GND" H 2250 3075 50  0000 C CNN
+F 2 "" H 2400 3150 50  0001 C CNN
+F 3 "" H 2400 3150 50  0001 C CNN
+	1    2400 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 3125 2400 3125
+Wire Wire Line
+	2400 3125 2400 3150
+Wire Wire Line
+	2425 2700 2400 2700
+Wire Wire Line
+	2400 2700 2400 2725
+$Comp
+L 123-rescue:USB_B_Micro J15
+U 1 1 5D4BD726
+P 8975 4175
+F 0 "J15" H 8750 4625 50  0000 C CNN
+F 1 "USB_B_Micro" H 8750 4550 50  0000 C CNN
+F 2 "123:USB_Mini-B_Lumberg_2486_01_Horizontal" H 9125 4125 50  0001 C CNN
+F 3 "" H 9125 4125 50  0001 C CNN
+F 4 "USB/M-1J (DS1104)" H 8975 4175 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/usb-m-1j" H 8975 4175 50  0001 C CNN "Ссылка"
+F 6 "22" H 8975 4175 50  0001 C CNN "Цена"
+	1    8975 4175
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8975 4700 8975 4625
+Wire Wire Line
+	8975 4625 9125 4625
+Wire Wire Line
+	9125 4625 9125 4575
+Connection ~ 8975 4625
+Wire Wire Line
+	8975 4625 8975 4575
+$Comp
+L 123-rescue:GND-power #PWR07
+U 1 1 5CBB8DB7
+P 1400 5425
+F 0 "#PWR07" H 1400 5175 50  0001 C CNN
+F 1 "GND" H 1405 5252 50  0000 C CNN
+F 2 "" H 1400 5425 50  0001 C CNN
+F 3 "" H 1400 5425 50  0001 C CNN
+	1    1400 5425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5350 1400 5425
+Wire Wire Line
+	1400 5050 1400 5150
+Wire Wire Line
+	2400 5350 2400 5425
+$Comp
+L 123-rescue:GND-power #PWR014
+U 1 1 5D40056E
+P 2400 5425
+F 0 "#PWR014" H 2400 5175 50  0001 C CNN
+F 1 "GND" H 2405 5252 50  0000 C CNN
+F 2 "" H 2400 5425 50  0001 C CNN
+F 3 "" H 2400 5425 50  0001 C CNN
+	1    2400 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:R_POT-Device RV2
+U 1 1 5DDEE8B9
+P 9500 5625
+F 0 "RV2" V 9625 5550 50  0000 R CNN
+F 1 "100" V 9625 5800 50  0000 R CNN
+F 2 "123:3224W" H 9500 5625 50  0001 C CNN
+F 3 "" H 9500 5625 50  0001 C CNN
+F 4 "3224W-1-101E" H 9500 5625 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/3224w-1-101e" H 9500 5625 50  0001 C CNN "Ссылка"
+F 6 "90" H 9500 5625 50  0001 C CNN "Цена"
+	1    9500 5625
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	9500 4825 9500 5475
+$Comp
+L Connector_Generic:Conn_01x05 J16
+U 1 1 5DE0DA87
+P 9100 5825
+F 0 "J16" H 9275 6250 50  0000 C CNN
+F 1 "Тензорезистор" H 9275 6175 50  0000 C CNN
+F 2 "123:PinHeader_1x05_P2.54mm_Vertical" H 9100 5825 50  0001 C CNN
+F 3 "~" H 9100 5825 50  0001 C CNN
+	1    9100 5825
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 5625 9350 5625
+Wire Wire Line
+	9300 5725 9700 5725
+Wire Wire Line
+	9700 5725 9700 5625
+Wire Wire Line
+	9700 5625 9650 5625
+Wire Wire Line
+	9775 5825 9775 5675
+Wire Wire Line
+	9775 5675 10125 5675
+Wire Wire Line
+	9300 5825 9775 5825
+Wire Wire Line
+	9775 5925 9775 6075
+Wire Wire Line
+	9775 6075 10125 6075
+Wire Wire Line
+	9300 5925 9775 5925
+Text Notes 8900 5650 0    50   ~ 0
+R1
+$Comp
+L 123-rescue:AD5160BRJZ D4
+U 1 1 5DE9B283
+P 7700 5425
+F 0 "D4" H 7900 5575 50  0000 C CNN
+F 1 "AD5160BRJZ" H 7900 5500 50  0000 C CNN
+F 2 "123:SOT-23-8" H 7700 5425 50  0001 C CNN
+F 3 "" H 7700 5425 50  0001 C CNN
+F 4 "AD5160BRJZ10-R2" H 7700 5425 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/ad5160brjz10-r2-2" H 7700 5425 50  0001 C CNN "Ссылка"
+F 6 "110" H 7700 5425 50  0001 C CNN "Цена"
+	1    7700 5425
+	1    0    0    -1  
+$EndComp
+Text Label 7525 5750 2    50   ~ 0
+CLK
+Text Label 8300 5750 0    50   ~ 0
+SDI
+Text Label 8300 5675 0    50   ~ 0
+CS_gain
+Wire Wire Line
+	8225 5675 8300 5675
+Wire Wire Line
+	8225 5750 8300 5750
+Wire Wire Line
+	7575 5750 7525 5750
+$Comp
+L 123-rescue:+3.3V-power #PWR040
+U 1 1 5DECCDC4
+P 7350 5525
+F 0 "#PWR040" H 7350 5375 50  0001 C CNN
+F 1 "+3.3V" H 7365 5698 50  0000 C CNN
+F 2 "" H 7350 5525 50  0001 C CNN
+F 3 "" H 7350 5525 50  0001 C CNN
+	1    7350 5525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7575 5600 7350 5600
+$Comp
+L 123-rescue:GND-power #PWR041
+U 1 1 5DEDCC0F
+P 7350 5750
+F 0 "#PWR041" H 7350 5500 50  0001 C CNN
+F 1 "GND" H 7225 5675 50  0000 C CNN
+F 2 "" H 7350 5750 50  0001 C CNN
+F 3 "" H 7350 5750 50  0001 C CNN
+	1    7350 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 5750 7350 5675
+Wire Wire Line
+	7350 5675 7575 5675
+Wire Wire Line
+	7350 5525 7350 5600
+Text Label 5575 3775 2    50   ~ 0
+CLK
+Text Label 5575 3675 2    50   ~ 0
+SDI
+Text Label 5575 3975 2    50   ~ 0
+CS_gain
+Text Label 5575 3875 2    50   ~ 0
+CS_ref
+Wire Wire Line
+	10425 6175 10425 6275
+Wire Wire Line
+	7575 5525 7525 5525
+Wire Wire Line
+	7525 5525 7525 5400
+Wire Wire Line
+	7525 5400 8275 5400
+Wire Wire Line
+	8275 5400 8275 5525
+Wire Wire Line
+	8275 5525 8225 5525
+Text Label 8300 5525 0    50   ~ 0
+R_gain1
+Text Label 8300 5600 0    50   ~ 0
+R_gain2
+Wire Wire Line
+	8275 5525 8300 5525
+Connection ~ 8275 5525
+Wire Wire Line
+	8225 5600 8300 5600
+Text Label 10025 5550 0    50   ~ 0
+R_gain2
+Text Label 10025 6225 0    50   ~ 0
+R_gain1
+Wire Wire Line
+	10025 6225 10025 6025
+Connection ~ 10025 6025
+Wire Wire Line
+	10025 5550 10025 5725
+Connection ~ 10025 5725
+Wire Wire Line
+	3475 2675 3475 2475
+$Comp
+L 123-rescue:AD5160BRJZ D5
+U 1 1 5E09253F
+P 7700 6000
+F 0 "D5" H 7900 6100 50  0000 C CNN
+F 1 "AD5160BRJZ" H 7900 6025 50  0000 C CNN
+F 2 "123:SOT-23-8" H 7700 6000 50  0001 C CNN
+F 3 "" H 7700 6000 50  0001 C CNN
+F 4 "AD5160BRJZ10-R2" H 7700 6000 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/ad5160brjz10-r2-2" H 7700 6000 50  0001 C CNN "Ссылка"
+F 6 "110" H 7700 6000 50  0001 C CNN "Цена"
+	1    7700 6000
+	1    0    0    -1  
+$EndComp
+Text Label 7525 6325 2    50   ~ 0
+CLK
+Text Label 8300 6325 0    50   ~ 0
+SDI
+Text Label 8300 6250 0    50   ~ 0
+CS_ref
+Wire Wire Line
+	8225 6250 8300 6250
+Wire Wire Line
+	8225 6325 8300 6325
+Wire Wire Line
+	7575 6325 7525 6325
+$Comp
+L 123-rescue:+3.3V-power #PWR042
+U 1 1 5E09254B
+P 7350 6100
+F 0 "#PWR042" H 7350 5950 50  0001 C CNN
+F 1 "+3.3V" H 7450 6250 50  0000 C CNN
+F 2 "" H 7350 6100 50  0001 C CNN
+F 3 "" H 7350 6100 50  0001 C CNN
+	1    7350 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7575 6175 7350 6175
+$Comp
+L 123-rescue:GND-power #PWR043
+U 1 1 5E092552
+P 7350 6325
+F 0 "#PWR043" H 7350 6075 50  0001 C CNN
+F 1 "GND" H 7225 6250 50  0000 C CNN
+F 2 "" H 7350 6325 50  0001 C CNN
+F 3 "" H 7350 6325 50  0001 C CNN
+	1    7350 6325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 6325 7350 6250
+Wire Wire Line
+	7350 6250 7575 6250
+Wire Wire Line
+	7350 6100 7350 6175
+$Comp
+L 123-rescue:GND-power #PWR050
+U 1 1 5E0DAD06
+P 8575 6325
+F 0 "#PWR050" H 8575 6075 50  0001 C CNN
+F 1 "GND" H 8450 6250 50  0000 C CNN
+F 2 "" H 8575 6325 50  0001 C CNN
+F 3 "" H 8575 6325 50  0001 C CNN
+	1    8575 6325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 6325 8575 6175
+Wire Wire Line
+	8575 6175 8225 6175
+$Comp
+L 123-rescue:+3.3V-power #PWR049
+U 1 1 5E0ED75E
+P 8575 6100
+F 0 "#PWR049" H 8575 5950 50  0001 C CNN
+F 1 "+3.3V" H 8450 6250 50  0000 C CNN
+F 2 "" H 8575 6100 50  0001 C CNN
+F 3 "" H 8575 6100 50  0001 C CNN
+	1    8575 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8575 6100 8225 6100
+Text Label 7525 6100 2    50   ~ 0
+ref
+Wire Wire Line
+	7575 6100 7525 6100
+Text Label 10575 6225 0    50   ~ 0
+ref
+Wire Wire Line
+	10575 6225 10525 6225
+Wire Wire Line
+	10525 6225 10525 6175
+$Comp
+L 123-rescue:TPS54332 U1
+U 1 1 5DD32B23
+P 2425 6425
+F 0 "U1" H 2425 6892 50  0000 C CNN
+F 1 "TPS54332" H 2425 6801 50  0000 C CNN
+F 2 "123:TI_SO-PowerPAD-8_ThermalVias" H 3325 6075 50  0001 C CNN
+F 3 "" H 3425 5975 50  0001 C CNN
+F 4 "TPS54332DDAR" H 2425 6425 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/tps54332dda" H 2425 6425 50  0001 C CNN "Ссылка"
+F 6 "96" H 2425 6425 50  0001 C CNN "Цена"
+	1    2425 6425
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:GND-power #PWR012
+U 1 1 5DD33ED7
+P 2325 7300
+F 0 "#PWR012" H 2325 7050 50  0001 C CNN
+F 1 "GND" H 2330 7127 50  0000 C CNN
+F 2 "" H 2325 7300 50  0001 C CNN
+F 3 "" H 2325 7300 50  0001 C CNN
+	1    2325 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2325 7300 2325 6875
+Wire Wire Line
+	2425 6825 2425 6875
+Wire Wire Line
+	2425 6875 2325 6875
+Connection ~ 2325 6875
+Wire Wire Line
+	2325 6875 2325 6825
+$Comp
+L 123-rescue:C-Device C5
+U 1 1 5DD6B920
+P 3125 6225
+F 0 "C5" V 2975 6075 50  0000 L CNN
+F 1 "0.1uF" V 2975 6225 50  0000 L CNN
+F 2 "123:C_0603_1608Metric" H 3163 6075 50  0001 C CNN
+F 3 "~" H 3125 6225 50  0001 C CNN
+F 4 "GRM188R71H104KA93D" H 3125 6225 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/grm188r71h104k" H 3125 6225 50  0001 C CNN "Ссылка"
+F 6 "8" H 3125 6225 50  0001 C CNN "Цена"
+	1    3125 6225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2925 6225 2975 6225
+Wire Wire Line
+	2925 6425 3325 6425
+Wire Wire Line
+	3325 6425 3325 6225
+Wire Wire Line
+	3325 6225 3275 6225
+$Comp
+L 123-rescue:L-Device L1
+U 1 1 5DDA6807
+P 3550 6425
+F 0 "L1" V 3700 6425 50  0000 C CNN
+F 1 "3.3uH" V 3625 6375 50  0000 C CNN
+F 2 "123:L_Radial_D8.7mm_P5.00mm_Fastron_07HCP" H 3550 6425 50  0001 C CNN
+F 3 "" H 3550 6425 50  0001 C CNN
+F 4 "RLB0914-3R3ML, 3.3 мкГн" H 450 4275 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/rlb0914-3r3ml" H 450 4275 50  0001 C CNN "Ссылка"
+F 6 "25" H 450 4275 50  0001 C CNN "Цена"
+	1    3550 6425
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 6425 3325 6425
+Connection ~ 3325 6425
+$Comp
+L 123-rescue:D_Schottky-Device D1
+U 1 1 5DDBB804
+P 3325 6625
+F 0 "D1" V 3325 6425 50  0000 L CNN
+F 1 "Диод Шоттки" V 3375 6125 50  0001 L CNN
+F 2 "123:D_SMA" H 3325 6625 50  0001 C CNN
+F 3 "~" H 3325 6625 50  0001 C CNN
+F 4 "B340A-E3/61T" H 425 4275 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/b340a-e3-61t-2" H 425 4275 50  0001 C CNN "Ссылка"
+F 6 "11" H 425 4275 50  0001 C CNN "Цена"
+	1    3325 6625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3325 6475 3325 6425
+$Comp
+L 123-rescue:C-Device C6
+U 1 1 5DDD0270
+P 3750 6625
+F 0 "C6" H 3900 6550 50  0000 L CNN
+F 1 "22uF" H 3875 6650 50  0000 L CNN
+F 2 "123:C_0805_2012Metric" H 3788 6475 50  0001 C CNN
+F 3 "~" H 3750 6625 50  0001 C CNN
+F 4 "3" H 1050 2675 50  0001 C CNN "Номер"
+F 5 "GRM21BR60J226ME39L" H 1050 2675 50  0001 C CNN "Артикул"
+F 6 "https://www.chipdip.ru/product/grm21br60j226m" H 1050 2675 50  0001 C CNN "Ссылка"
+F 7 "10" H 1050 2675 50  0001 C CNN "Цена"
+	1    3750 6625
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 6425 3750 6425
+Wire Wire Line
+	3750 6425 3750 6475
+$Comp
+L 123-rescue:R-Device R4
+U 1 1 5DDFC7B6
+P 3950 6625
+F 0 "R4" H 3750 6600 50  0000 L CNN
+F 1 "10k" H 3750 6675 50  0000 L CNN
+F 2 "123:R_0603_1608Metric" V 3880 6625 50  0001 C CNN
+F 3 "~" H 3950 6625 50  0001 C CNN
+F 4 "0.063Вт 0603 10 кОм, 1%" H -2250 5825 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product0/9000079736" H -2250 5825 50  0001 C CNN "Ссылка"
+F 6 "0,9" H -2250 5825 50  0001 C CNN "Цена"
+	1    3950 6625
+	-1   0    0    1   
+$EndComp
+$Comp
+L 123-rescue:R-Device R5
+U 1 1 5DDFD6FF
+P 3950 6975
+F 0 "R5" H 3750 6900 50  0000 L CNN
+F 1 "1.8k" H 3725 6975 50  0000 L CNN
+F 2 "123:R_0603_1608Metric" V 3880 6975 50  0001 C CNN
+F 3 "~" H 3950 6975 50  0001 C CNN
+F 4 "0.1Вт 0603 1.8 кОм, 1%" H -2250 6175 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product0/9000079718" H -2250 6175 50  0001 C CNN "Ссылка"
+F 6 "0,9" H -2250 6175 50  0001 C CNN "Цена"
+	1    3950 6975
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3025 6625 2925 6625
+Wire Wire Line
+	3950 6775 3950 6800
+Wire Wire Line
+	3950 6800 3025 6800
+Connection ~ 3950 6800
+Wire Wire Line
+	3950 6800 3950 6825
+Wire Wire Line
+	3025 6800 3025 6625
+$Comp
+L 123-rescue:GND-power #PWR024
+U 1 1 5DE63CB1
+P 3950 7275
+F 0 "#PWR024" H 3950 7025 50  0001 C CNN
+F 1 "GND" H 3955 7102 50  0000 C CNN
+F 2 "" H 3950 7275 50  0001 C CNN
+F 3 "" H 3950 7275 50  0001 C CNN
+	1    3950 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:GND-power #PWR021
+U 1 1 5DE6411A
+P 3750 7275
+F 0 "#PWR021" H 3750 7025 50  0001 C CNN
+F 1 "GND" H 3755 7102 50  0000 C CNN
+F 2 "" H 3750 7275 50  0001 C CNN
+F 3 "" H 3750 7275 50  0001 C CNN
+	1    3750 7275
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:GND-power #PWR020
+U 1 1 5DE645B9
+P 3325 7300
+F 0 "#PWR020" H 3325 7050 50  0001 C CNN
+F 1 "GND" H 3330 7127 50  0000 C CNN
+F 2 "" H 3325 7300 50  0001 C CNN
+F 3 "" H 3325 7300 50  0001 C CNN
+	1    3325 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 7300 3325 6775
+Wire Wire Line
+	3750 7275 3750 6775
+Wire Wire Line
+	3950 7275 3950 7125
+Wire Wire Line
+	3950 6475 3950 6425
+Wire Wire Line
+	3950 6425 3750 6425
+Connection ~ 3750 6425
+$Comp
+L 123-rescue:C-Device C3
+U 1 1 5DEB8AB7
+P 1675 6800
+F 0 "C3" H 1525 6975 50  0000 L CNN
+F 1 "20nF" H 1475 6900 50  0000 L CNN
+F 2 "123:C_0603_1608Metric" H 1713 6650 50  0001 C CNN
+F 3 "~" H 1675 6800 50  0001 C CNN
+F 4 "GRM188R71H223KA01D" H 1675 6800 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/grm188r71h223k" H 1675 6800 50  0001 C CNN "Ссылка"
+F 6 "2" H 1675 6800 50  0001 C CNN "Цена"
+	1    1675 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:C-Device C4
+U 1 1 5DECEB6E
+P 1900 6800
+F 0 "C4" H 1750 6975 50  0000 L CNN
+F 1 "470pF" H 1675 6900 50  0000 L CNN
+F 2 "123:C_0603_1608Metric" H 1938 6650 50  0001 C CNN
+F 3 "~" H 1900 6800 50  0001 C CNN
+F 4 "GRM1885C1H471JA01D" H 1900 6800 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/grm1885c1h471j" H 1900 6800 50  0001 C CNN "Ссылка"
+F 6 "2" H 1900 6800 50  0001 C CNN "Цена"
+	1    1900 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:R-Device R3
+U 1 1 5DECFA1B
+P 1900 7125
+F 0 "R3" H 1750 7050 50  0000 L CNN
+F 1 "24k" H 1700 7125 50  0000 L CNN
+F 2 "123:R_0603_1608Metric" V 1830 7125 50  0001 C CNN
+F 3 "~" H 1900 7125 50  0001 C CNN
+F 4 "0.1Вт 0603 24 кОм, 1%" H -4300 6325 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product0/9000079745" H -4300 6325 50  0001 C CNN "Ссылка"
+F 6 "0,9" H -4300 6325 50  0001 C CNN "Цена"
+	1    1900 7125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1925 6625 1900 6625
+Wire Wire Line
+	1900 6625 1900 6650
+Wire Wire Line
+	1900 6950 1900 6975
+$Comp
+L 123-rescue:GND-power #PWR010
+U 1 1 5DEFC398
+P 1900 7300
+F 0 "#PWR010" H 1900 7050 50  0001 C CNN
+F 1 "GND" H 1905 7127 50  0000 C CNN
+F 2 "" H 1900 7300 50  0001 C CNN
+F 3 "" H 1900 7300 50  0001 C CNN
+	1    1900 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 7300 1900 7275
+Wire Wire Line
+	1675 6650 1675 6525
+$Comp
+L 123-rescue:GND-power #PWR09
+U 1 1 5DFBF45F
+P 1675 7300
+F 0 "#PWR09" H 1675 7050 50  0001 C CNN
+F 1 "GND" H 1680 7127 50  0000 C CNN
+F 2 "" H 1675 7300 50  0001 C CNN
+F 3 "" H 1675 7300 50  0001 C CNN
+	1    1675 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1675 7300 1675 6950
+$Comp
+L 123-rescue:R-Device R1
+U 1 1 5DFD6171
+P 1675 6325
+F 0 "R1" V 1725 6425 50  0000 L CNN
+F 1 "150k" V 1675 6225 50  0000 L CNN
+F 2 "123:R_0603_1608Metric" V 1605 6325 50  0001 C CNN
+F 3 "~" H 1675 6325 50  0001 C CNN
+F 4 "0.1Вт 0603 150 кОм, 1%" H -4525 5525 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product0/9000079764" H -4525 5525 50  0001 C CNN "Ссылка"
+F 6 "0,9" H -4525 5525 50  0001 C CNN "Цена"
+	1    1675 6325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 123-rescue:R-Device R2
+U 1 1 5DFD8A72
+P 1675 6425
+F 0 "R2" V 1725 6525 50  0000 L CNN
+F 1 "47k" V 1675 6375 50  0000 L CNN
+F 2 "123:R_0603_1608Metric" V 1605 6425 50  0001 C CNN
+F 3 "~" H 1675 6425 50  0001 C CNN
+F 4 "0.1Вт 0603 47 кОм, 1%" H -4525 5625 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product0/9000079752" H -4525 5625 50  0001 C CNN "Ссылка"
+F 6 "0,9" H -4525 5625 50  0001 C CNN "Цена"
+	1    1675 6425
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1825 6425 1875 6425
+Wire Wire Line
+	1875 6425 1875 6325
+Wire Wire Line
+	1875 6325 1925 6325
+Wire Wire Line
+	1825 6325 1875 6325
+Connection ~ 1875 6325
+Wire Wire Line
+	1525 6325 1475 6325
+Wire Wire Line
+	1475 6325 1475 6225
+$Comp
+L 123-rescue:GND-power #PWR08
+U 1 1 5E02007B
+P 1475 7300
+F 0 "#PWR08" H 1475 7050 50  0001 C CNN
+F 1 "GND" H 1480 7127 50  0000 C CNN
+F 2 "" H 1475 7300 50  0001 C CNN
+F 3 "" H 1475 7300 50  0001 C CNN
+	1    1475 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1675 6525 1925 6525
+Wire Wire Line
+	1475 7300 1475 6425
+Wire Wire Line
+	1475 6225 1925 6225
+Wire Wire Line
+	1475 6425 1525 6425
+$Comp
+L 123-rescue:CP-Device C2
+U 1 1 5E0AFA86
+P 1300 6800
+F 0 "C2" H 1300 6975 50  0000 L CNN
+F 1 "10uF" H 1300 6900 50  0000 L CNN
+F 2 "123:CP_EIA-3528-21_Kemet-B" H 1338 6650 50  0001 C CNN
+F 3 "" H 1300 6800 50  0001 C CNN
+F 4 "293D106X9020B2TE3" H 1300 6800 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product0/8085431345" H 1300 6800 50  0001 C CNN "Ссылка"
+F 6 "14" H 1300 6800 50  0001 C CNN "Цена"
+	1    1300 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 6225 1475 6225
+Wire Wire Line
+	1300 6225 1300 6650
+Connection ~ 1475 6225
+$Comp
+L 123-rescue:C-Device C1
+U 1 1 5E0E2C2F
+P 1050 6800
+F 0 "C1" H 900 6625 50  0000 L CNN
+F 1 "1uF" H 875 6700 50  0000 L CNN
+F 2 "123:C_0603_1608Metric" H 1088 6650 50  0001 C CNN
+F 3 "~" H 1050 6800 50  0001 C CNN
+F 4 "3" H -1650 2850 50  0001 C CNN "Номер"
+F 5 "GRM188R61E105KAADD" H -1650 2850 50  0001 C CNN "Артикул"
+F 6 "https://www.chipdip.ru/product/grm188r61e105k" H -1650 2850 50  0001 C CNN "Ссылка"
+F 7 "5" H -1650 2850 50  0001 C CNN "Цена"
+	1    1050 6800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1050 6650 1050 6225
+Wire Wire Line
+	1050 6225 1300 6225
+Connection ~ 1300 6225
+$Comp
+L 123-rescue:GND-power #PWR03
+U 1 1 5E0FD484
+P 1300 7300
+F 0 "#PWR03" H 1300 7050 50  0001 C CNN
+F 1 "GND" H 1305 7127 50  0000 C CNN
+F 2 "" H 1300 7300 50  0001 C CNN
+F 3 "" H 1300 7300 50  0001 C CNN
+	1    1300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:GND-power #PWR02
+U 1 1 5E0FD7D2
+P 1050 7300
+F 0 "#PWR02" H 1050 7050 50  0001 C CNN
+F 1 "GND" H 1055 7127 50  0000 C CNN
+F 2 "" H 1050 7300 50  0001 C CNN
+F 3 "" H 1050 7300 50  0001 C CNN
+	1    1050 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 7300 1050 6950
+Wire Wire Line
+	1300 7300 1300 6950
+Wire Wire Line
+	5600 6800 5600 6775
+Wire Wire Line
+	5600 7275 5600 7100
+$Comp
+L 123-rescue:LED-Device D2
+U 1 1 5D31C6B0
+P 5600 6950
+F 0 "D2" V 5639 6833 50  0000 R CNN
+F 1 "LED зелёный" V 5548 6833 50  0000 R CNN
+F 2 "123:LED_D3.0mm_Horizontal_O6.35mm_Z2.0mm" H 5600 6950 50  0001 C CNN
+F 3 "~" H 5600 6950 50  0001 C CNN
+F 4 "GNL-3012GD" H 2050 4600 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/gnl-3012gd" H 2050 4600 50  0001 C CNN "Ссылка"
+F 6 "5" H 2050 4600 50  0001 C CNN "Цена"
+	1    5600 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3950 6425 4250 6425
+Connection ~ 3950 6425
+Connection ~ 4250 6425
+Wire Wire Line
+	4250 6175 4250 6425
+Wire Wire Line
+	5250 6425 5350 6425
+Connection ~ 5350 6425
+Wire Wire Line
+	1050 6175 1050 6225
+Connection ~ 1050 6225
+Text Label 8475 3975 1    50   ~ 0
++5_USB
+Wire Wire Line
+	8675 3975 8625 3975
+Connection ~ 8625 3975
+Wire Wire Line
+	8625 3975 8475 3975
+$Comp
+L MCU_ST_STM32F1:STM32F103C8Tx U3
+U 1 1 5DDC4ABD
+P 6325 3475
+F 0 "U3" H 6875 5050 50  0000 C CNN
+F 1 "STM32F103C8Tx" H 6875 4950 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 5725 2075 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 6325 3475 50  0001 C CNN
+	1    6325 3475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6325 4975 6325 5050
+Wire Wire Line
+	6325 5050 6225 5050
+Wire Wire Line
+	6125 5050 6125 4975
+Wire Wire Line
+	6225 4975 6225 5050
+Connection ~ 6225 5050
+Wire Wire Line
+	6225 5050 6125 5050
+Wire Wire Line
+	6525 1975 6525 1900
+Wire Wire Line
+	6225 1900 6225 1975
+Wire Wire Line
+	6325 1975 6325 1900
+Wire Wire Line
+	6225 1900 6325 1900
+Connection ~ 6325 1900
+Wire Wire Line
+	6325 1900 6425 1900
+Wire Wire Line
+	6425 1975 6425 1900
+Connection ~ 6425 1900
+Wire Wire Line
+	6425 1900 6525 1900
+Wire Wire Line
+	6425 4975 6425 5050
+Wire Wire Line
+	6425 5050 6325 5050
+Connection ~ 6325 5050
+$Comp
+L 123-rescue:GND-power #PWR038
+U 1 1 5DEC9EE0
+P 6425 5125
+F 0 "#PWR038" H 6425 4875 50  0001 C CNN
+F 1 "GND" H 6430 4952 50  0000 C CNN
+F 2 "" H 6425 5125 50  0001 C CNN
+F 3 "" H 6425 5125 50  0001 C CNN
+	1    6425 5125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6425 5125 6425 5050
+Connection ~ 6425 5050
+$Comp
+L 123-rescue:+3.3V-power #PWR039
+U 1 1 5DEEF44C
+P 6525 1775
+F 0 "#PWR039" H 6525 1625 50  0001 C CNN
+F 1 "+3.3V" H 6500 1950 50  0000 C CNN
+F 2 "" H 6525 1775 50  0001 C CNN
+F 3 "" H 6525 1775 50  0001 C CNN
+	1    6525 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6525 1775 6525 1900
+Connection ~ 6525 1900
+Wire Wire Line
+	5625 2175 5575 2175
+Wire Wire Line
+	5575 2175 5575 2125
+Wire Wire Line
+	5575 1775 5575 1825
+Wire Wire Line
+	4600 2375 4800 2375
+Wire Wire Line
+	4600 2575 4700 2575
+$Comp
+L 123-rescue:R-Device R8
+U 1 1 5DDB8EE4
+P 4700 2925
+F 0 "R8" H 4550 2900 50  0000 L CNN
+F 1 "10k" H 4500 2975 50  0000 L CNN
+F 2 "123:R_0603_1608Metric" V 4630 2925 50  0001 C CNN
+F 3 "~" H 4700 2925 50  0001 C CNN
+F 4 "0.063Вт 0603 10 кОм, 1%" H 4700 2925 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product0/9000079736" H 4700 2925 50  0001 C CNN "Ссылка"
+F 6 "0,9" H 4700 2925 50  0001 C CNN "Цена"
+	1    4700 2925
+	1    0    0    1   
+$EndComp
+$Comp
+L 123-rescue:R-Device R10
+U 1 1 5DDB999D
+P 4800 2925
+F 0 "R10" H 4875 2900 50  0000 L CNN
+F 1 "10k" H 4850 2975 50  0000 L CNN
+F 2 "123:R_0603_1608Metric" V 4730 2925 50  0001 C CNN
+F 3 "~" H 4800 2925 50  0001 C CNN
+F 4 "0.063Вт 0603 10 кОм, 1%" H 4800 2925 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product0/9000079736" H 4800 2925 50  0001 C CNN "Ссылка"
+F 6 "0,9" H 4800 2925 50  0001 C CNN "Цена"
+	1    4800 2925
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4700 2775 4700 2575
+Connection ~ 4700 2575
+Wire Wire Line
+	4800 2775 4800 2375
+Connection ~ 4800 2375
+$Comp
+L 123-rescue:+3.3V-power #PWR011
+U 1 1 5DE014F2
+P 4675 1775
+F 0 "#PWR011" H 4675 1625 50  0001 C CNN
+F 1 "+3.3V" H 4690 1948 50  0000 C CNN
+F 2 "" H 4675 1775 50  0001 C CNN
+F 3 "" H 4675 1775 50  0001 C CNN
+	1    4675 1775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:GND-power #PWR037
+U 1 1 5DE269BF
+P 4750 3150
+F 0 "#PWR037" H 4750 2900 50  0001 C CNN
+F 1 "GND" H 4900 3075 50  0000 C CNN
+F 2 "" H 4750 3150 50  0001 C CNN
+F 3 "" H 4750 3150 50  0001 C CNN
+	1    4750 3150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3075 4700 3125
+Wire Wire Line
+	4700 3125 4750 3125
+Wire Wire Line
+	4800 3125 4800 3075
+Wire Wire Line
+	4750 3150 4750 3125
+Connection ~ 4750 3125
+Wire Wire Line
+	4750 3125 4800 3125
+$Comp
+L 123-rescue:BC817-Transistor_BJT Q1
+U 1 1 5CACEF34
+P 7650 3975
+F 0 "Q1" H 7841 4021 50  0000 L CNN
+F 1 "BC817" H 7850 3925 50  0000 L CNN
+F 2 "123:SOT-23" H 7850 3900 50  0001 L CIN
+F 3 "" H 7650 3975 50  0001 L CNN
+F 4 "BC817-16.215" H 7650 3975 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/bc817-16-nxp" H 7650 3975 50  0001 C CNN "Ссылка"
+F 6 "3" H 7650 3975 50  0001 C CNN "Цена"
+	1    7650 3975
+	1    0    0    -1  
+$EndComp
+Text Label 8625 4175 2    50   ~ 0
+Dp
+Wire Wire Line
+	8675 4175 8625 4175
+Text Label 8625 4275 2    50   ~ 0
+Dm
+Wire Wire Line
+	8625 4275 8675 4275
+Text Label 7000 4475 0    50   ~ 0
+Dp
+Text Label 7000 4375 0    50   ~ 0
+Dm
+Wire Wire Line
+	7000 4475 6925 4475
+Wire Wire Line
+	7000 4375 6925 4375
+$Comp
+L Connector_Generic:Conn_01x04 J17
+U 1 1 5DF9A392
+P 7450 4575
+F 0 "J17" H 7400 4900 50  0000 L CNN
+F 1 "ST-Link" H 7325 4800 50  0000 L CNN
+F 2 "123:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 7450 4575 50  0001 C CNN
+F 3 "~" H 7450 4575 50  0001 C CNN
+	1    7450 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:+3.3V-power #PWR051
+U 1 1 5DF9B10F
+P 7200 4425
+F 0 "#PWR051" H 7200 4275 50  0001 C CNN
+F 1 "+3.3V" H 7215 4598 50  0000 C CNN
+F 2 "" H 7200 4425 50  0001 C CNN
+F 3 "" H 7200 4425 50  0001 C CNN
+	1    7200 4425
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:GND-power #PWR052
+U 1 1 5DF9C12A
+P 7200 4825
+F 0 "#PWR052" H 7200 4575 50  0001 C CNN
+F 1 "GND" H 7205 4652 50  0000 C CNN
+F 2 "" H 7200 4825 50  0001 C CNN
+F 3 "" H 7200 4825 50  0001 C CNN
+	1    7200 4825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 4825 7200 4775
+Wire Wire Line
+	7200 4775 7250 4775
+Wire Wire Line
+	7200 4425 7200 4475
+Wire Wire Line
+	7200 4475 7250 4475
+Wire Wire Line
+	5625 3675 5575 3675
+Wire Wire Line
+	5575 3775 5625 3775
+$Comp
+L 123-rescue:Crystal-Device Y1
+U 1 1 5E02B607
+P 5400 2575
+F 0 "Y1" H 5400 2725 50  0000 C CNN
+F 1 "NX5032GA-8MHz" H 5400 2350 50  0000 C CNN
+F 2 "123:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering" H 5400 2575 50  0001 C CNN
+F 3 "" H 5400 2575 50  0001 C CNN
+	1    5400 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 2575 5550 2575
+Wire Wire Line
+	5625 2675 5550 2675
+Wire Wire Line
+	5550 2675 5550 2750
+Wire Wire Line
+	5550 2750 5175 2750
+Wire Wire Line
+	5175 2750 5175 2575
+Wire Wire Line
+	5175 2575 5250 2575
+Wire Wire Line
+	7000 3475 6925 3475
+Wire Wire Line
+	7000 3575 6925 3575
+Wire Wire Line
+	5575 3875 5625 3875
+Wire Wire Line
+	5625 3975 5575 3975
+Wire Wire Line
+	7250 4675 6925 4675
+Wire Wire Line
+	6925 4575 7250 4575
+Wire Wire Line
+	6925 3975 7000 3975
+Wire Wire Line
+	4800 2375 5625 2375
+Wire Wire Line
+	5050 3475 5050 2575
+Wire Wire Line
+	5050 3475 5625 3475
+Wire Wire Line
+	4700 2575 5050 2575
+Text Notes 7525 4500 0    50   ~ 0
++3.3
+Text Notes 7525 4600 0    50   ~ 0
+SWDIO
+Text Notes 7525 4700 0    50   ~ 0
+SWCLK
+Text Notes 7525 4800 0    50   ~ 0
+GND
+Text Notes 4425 5500 0    50   ~ 0
+pwm_fan
+Text Notes 4425 5250 0    50   ~ 0
++12
+Text Notes 4425 5150 0    50   ~ 0
+pwm_fan
+Text Notes 4425 4800 0    50   ~ 0
++12
+Text Notes 4425 4550 0    50   ~ 0
++12
+Text Notes 4425 4425 0    50   ~ 0
+pwm_heat1
+Text Notes 4425 4700 0    50   ~ 0
+pwm_heat2
+Wire Wire Line
+	5000 3875 5000 4175
+Wire Wire Line
+	4625 3875 5000 3875
+Wire Wire Line
+	4025 4175 5000 4175
+Wire Wire Line
+	4625 3975 4900 3975
+Wire Wire Line
+	4900 3975 4900 4925
+Wire Wire Line
+	3975 4925 4900 4925
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5DE0F516
+P 4400 2375
+F 0 "J2" H 4350 2700 50  0000 L CNN
+F 1 "Режим программирования" H 4125 2600 50  0000 L CNN
+F 2 "123:PinHeader_1x04_P2.54mm_Vertical" H 4400 2375 50  0001 C CNN
+F 3 "~" H 4400 2375 50  0001 C CNN
+	1    4400 2375
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 1775 4675 2275
+Wire Wire Line
+	4600 2275 4675 2275
+Connection ~ 4675 2275
+Wire Wire Line
+	4675 2275 4675 2475
+Wire Wire Line
+	4600 2475 4675 2475
+Text Label 5575 4375 2    50   ~ 0
+led
+Text Label 5275 5375 2    50   ~ 0
+led
+Wire Wire Line
+	5325 5375 5275 5375
+Wire Wire Line
+	5625 4375 5575 4375
+$Comp
+L 123-rescue:C-Device C13
+U 1 1 5DF4B1E4
+P 9850 5150
+F 0 "C13" H 9900 5250 50  0000 L CNN
+F 1 "1uF" H 9900 5050 50  0000 L CNN
+F 2 "123:C_0603_1608Metric" H 9888 5000 50  0001 C CNN
+F 3 "~" H 9850 5150 50  0001 C CNN
+F 4 "GRM188R61E105KAADD" H 9850 5150 50  0001 C CNN "Артикул"
+F 5 "https://www.chipdip.ru/product/grm188r61e105k" H 9850 5150 50  0001 C CNN "Ссылка"
+F 6 "5" H 9850 5150 50  0001 C CNN "Цена"
+	1    9850 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 123-rescue:+3.3V-power #PWR054
+U 1 1 5DF4B1EA
+P 9850 4825
+F 0 "#PWR054" H 9850 4675 50  0001 C CNN
+F 1 "+3.3V" H 9865 4998 50  0000 C CNN
+F 2 "" H 9850 4825 50  0001 C CNN
+F 3 "" H 9850 4825 50  0001 C CNN
+	1    9850 4825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 4825 9850 5000
+Wire Wire Line
+	9850 5300 9850 5350
+$Comp
+L 123-rescue:GND-power #PWR055
+U 1 1 5DF4B1F2
+P 9850 5350
+F 0 "#PWR055" H 9850 5100 50  0001 C CNN
+F 1 "GND" H 9855 5177 50  0000 C CNN
+F 2 "" H 9850 5350 50  0001 C CNN
+F 3 "" H 9850 5350 50  0001 C CNN
+	1    9850 5350
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
